@@ -6,10 +6,10 @@ Project is a site prototype, it uses one python script for decoding barcode imag
 Currently using xamp as a database but it's hostable on AWS or other cloud service. (of course you can host it locally but the security measures have to be tighten)
 
 Dependencies: 
-pip install opencv-python
-pip install pyzbar
-Visual C++ Redistributable Packages for Visual Studio 2013
-mysqli ext - safer i think
+- pip install opencv-python
+- pip install pyzbar
+- Visual C++ Redistributable Packages for Visual Studio 2013
+- mysqli ext - safer i think
 
 
 1. You can;t upload an image if the name is already taken, you have to either remove image, change image name or delete the old one. Shouldn't be an issue when user connects thru mobile phone. It's mainly an issue when testing - solvable
