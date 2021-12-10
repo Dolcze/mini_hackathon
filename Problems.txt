@@ -1,3 +1,9 @@
+pip install opencv-python
+pip install pyzbar
+Visual C++ Redistributable Packages for Visual Studio 2013
+
+włączyć mysqli EXT w php.ini
+
 1. You can;t upload an image if the name is already taken, you have to either remove image, change image name or somthing
 FOR MORE ctrl+f in functions.inc.py : // FILE NAME HANDLING PROBLEM
 

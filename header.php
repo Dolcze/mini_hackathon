@@ -1,14 +1,24 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="pl">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="bg">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Index</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  </head>
 
-  <title>python&php-app</title>
-  <meta name="description" content="A simple HTML5 Template for new projects.">
-  <meta name="author" content="SitePoint">
+  <body>
 
-</head>
-
-
+    <div class="nav">
+      <div class="div_nav">
+        <span class="material-icons md-36">recycling</span>
+        <div class="">
+        <p class="over_text">Title For The Nav</p>
+        <p class="under_text">Title For The Nav</p>
+        </div>
+      </div>
+    </div>
