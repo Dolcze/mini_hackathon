@@ -11,10 +11,10 @@ Dependencies:
 - Visual C++ Redistributable Packages for Visual Studio 2013
 - mysqli ext - safer i think
 
+Problems:
 
 1. You can;t upload an image if the name is already taken, you have to either remove image, change image name or delete the old one. Shouldn't be an issue when user connects thru mobile phone. It's mainly an issue when testing - solvable
 FOR MORE ctrl+f in functions.inc.py : // FILE NAME HANDLING PROBLEM
-
 
 2. Security issues e.g: (for example) 
 - no ht.ascess
