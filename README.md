@@ -3,13 +3,13 @@ Project fot the Mini_hackathon  /theme=recycling
 
 Project is a site prototype, it uses one python script for decoding barcode images. Then it searches DataBase specified in inc/db.inc.php for match, if the DB has no info, it asks user for info about the package and in which recycle bin type it belongs. Saves to DB.
 
-Currently using xamp as a database but it's hostable on AWS or other cloud. (of course you can host it locally but the security measures have to be tighten)
+Currently using xamp as a database but it's hostable on AWS or other cloud service. (of course you can host it locally but the security measures have to be tighten)
 
-dependencies: 
-pyzbar module
-opencv-python module
-mysqli ext
-microsoft visual framework 2013
+Dependencies: 
+pip install opencv-python
+pip install pyzbar
+Visual C++ Redistributable Packages for Visual Studio 2013
+mysqli ext - safer i think
 
 
 1. You can;t upload an image if the name is already taken, you have to either remove image, change image name or delete the old one. Shouldn't be an issue when user connects thru mobile phone. It's mainly an issue when testing - solvable
