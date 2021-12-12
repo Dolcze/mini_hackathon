@@ -1,4 +1,6 @@
 <?php
+include_once("header.php");
+
 session_start();
 if (! isset($_SESSION["img_decoded"])) {
     die("You need to enter properly");
@@ -29,3 +31,7 @@ echo "<p> Podaj informacje na temat $img_decoded</p>";
     <input type="submit" name="submit" value="submit">
 
 </form>
+
+<?php
+include_once("footer.php");
+?>

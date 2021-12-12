@@ -9,7 +9,7 @@ html{
   height:100%;
 }
 .bg{
-  height:100%;
+  height:1080px;
   background-image: url("./footer-backgorund.svg");
 }
 body{
@@ -20,8 +20,6 @@ body{
   background-color: var(--main-bg-color);
   padding: 25px 0 ;
 }
-
-
 .div_nav{
   padding: 25px;
   display: flex;
@@ -45,19 +43,28 @@ body{
 }
 
 .instruction{
-    padding: 20px;
-    width: 40%;
-    background-color:var(--instruction-bf);
-    margin: 25px auto;
-    display: flex;
+  float: left;
+  padding: 20px;
+  width: 40%; 
+  background-color:var(--instruction-bf);
+  margin: 35px auto;
+  display: flex;
+  flex-direction: column;
 }
 
+.element{
+  display: flex;
+  margin: 10px;
+}
+
+
 .instructions_left{
-  border: 2px magenta solid;
+  border: 2px magenta solid; 
 }
 
 .img_instruction{
-  width:100%;
+  width:100px;
+  float: left;
 }
 
 .instructions_right{
@@ -67,10 +74,10 @@ body{
 
 .form{
   border-radius:25px;
-  padding: 20px;
+  padding: 30px;
   width: 40%;
   max-width: 520px;
-  margin: 80px auto 80px auto;
+  margin: 20px auto 80px auto;
   display: flex;
   flex-direction: column;
   background-color:var(--form-bg);
@@ -78,13 +85,16 @@ body{
 .footer{
   font-family: Georgia, serif;
   font-size: 18px;
-  position: absolute;
-  bottom: 0;
   width: 100%;
-  height: 90px;
-  background: rgba(51, 170, 51, .3) ; /* rgb kolor + opacity*/
+  background: #348235 ;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  color: white;
+}
+.grid-item{
+  margin:50px auto;
 }
 
-.footer_a{
-
+.header{
+  font-weight: bold;
 }

@@ -1,4 +1,5 @@
 <?php
+include_once("header.php");
 
 if (isset($_GET["info"]) && isset($_GET["bin_type"])) {
     // pokaz informacje
@@ -10,4 +11,8 @@ if (isset($_GET["info"]) && isset($_GET["bin_type"])) {
     echo "something went wrong error ALPHA";
 };
 
+?>
+
+<?php
+include_once("footer.php");
 ?>
