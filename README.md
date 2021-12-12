@@ -35,3 +35,5 @@ FOR MORE ctrl+f in functions.inc.py : // FILE NAME HANDLING PROBLEM
 6. Front-end needs to be finished, dispaly css for every page, include footer and header for every page, simple stuff but time consuming.
 
 7.  ssl certificate when setting up on a server
+
+8. errors while inputing - barcode isn't uploaded to db, no info from form
