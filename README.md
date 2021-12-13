@@ -14,7 +14,10 @@ Dependencies:
 TODO:
 - adminPage for authentification of new info 
 - home page fot scrolling thru informations ?
-- 
+- style input and output better
+- tweak decoding script
+- maybe delete the image after processing?
+- new row in db saying if the info has been approved
 
 Problems:
 
