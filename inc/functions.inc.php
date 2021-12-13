@@ -84,19 +84,7 @@ function find_in_db($img_decoded,$conn){
   };
 };
 
-
-// RODZJE SMIETNIKOW
-// 0 - mieszane
-// 1 -plastik i metal
-// 2- papier
-// 3- szkło
-function upload_info($img_info,$img_bin_type,$img_decoded){
-
-
-}
   
-
-
 
 
 // ----------------------------------------------------------------------------------------------

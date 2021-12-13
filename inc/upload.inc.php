@@ -35,7 +35,7 @@ if ($db_output = find_in_db($img_decoded,$conn)){
 }else{
     // INPUTING SYSTEM, PASS VARIABLE USING SESSION
     session_start();
-    $_SESSION["img_decoded"] = $img_decoded;
+    $_SESSION["info"] = [$img_decoded,$file_name];
     echo $img_decoded;
     header("location: ../input.php?");
     exit();
