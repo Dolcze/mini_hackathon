@@ -18,6 +18,7 @@ TODO:
 - tweak decoding script
 - maybe delete the image after processing?
 - new row in db saying if the info has been approved
+- multiple parts in different bins?
 
 Problems:
 
